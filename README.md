@@ -49,4 +49,4 @@ The workflow is split into 3 stages:
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/<aditeyaarya>/whisperx-diar-mapper.git
-cd whisperx-diar-mapper
+cd whisperx-diarization-mapping
