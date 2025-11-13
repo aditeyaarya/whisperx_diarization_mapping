@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+.venv/
+.env
+*.egg-info/
+
+# Streamlit temp
+.streamlit_tmp/
+
+# OS
+.DS_Store
+
+# Outputs
+*_transcription/
+*_final/
+*.xlsx

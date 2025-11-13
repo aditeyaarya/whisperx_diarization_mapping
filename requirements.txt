@@ -1,0 +1,10 @@
+streamlit>=1.33
+pandas>=2.1
+numpy>=1.26
+openpyxl>=3.1
+tqdm>=4.66
+whisperx>=3.1.1
+torch>=2.1 ; platform_system!="Darwin" or platform_machine!="arm64"
+# For Apple Silicon users, install torch separately per PyTorch docs.
+# pyannote.audio dependency is pulled by whisperx diarization usage
+# FFmpeg must be installed via system package manager (not pip)
